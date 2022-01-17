@@ -76,7 +76,6 @@ void Test1()
     str2 = str1;
 
     str2.Print();
-    printf(".\n");
 }
 
 void Test2()
