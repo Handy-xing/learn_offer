@@ -67,7 +67,7 @@ MyString &MyString::operator=(const MyString &str)
 
 void Test1()
 {
-    printf("Test1 begins:\n");
+    cout << "TEST1 start" << endl;
 
     char *text = "Hello world";
 
