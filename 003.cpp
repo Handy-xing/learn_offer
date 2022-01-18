@@ -4,7 +4,7 @@ using namespace std;
 
 void function1(int *array, int length, int &res)
 {
-    //根据《啊哈算法.pdf》第一章桶排序想到的,占用空间太大
+    //根据《啊哈算法.pdf》第一章桶排序想到的,空间复杂度较高，不可取
     if ((nullptr == array) || (length <= 0))
         res = 0;
 
